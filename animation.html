@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><b>ANIMATION</b></h1>
+    <div>
+    <img src="/Premium Vector _ Cute shiba inu dog paws up over wall.jpeg" alt="">
+    </div>
+    <style>
+        h1{
+            color: blue;
+            font-family: 'Times New Roman', Times, serif
+            ;
+            text-decoration-color: rgb(157, 0, 255);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            justify-items: center;
+
+        }
+
+        body{
+          background:linear-gradient(90deg,orangered ,beige,orangered);}
+        
+        /* div{
+            width: 200px;
+            height: 200px;
+            border: 3px solid blueviolet;
+            border-radius: 50%;
+            position: relative;
+            animation-name: MSD;
+            animation-duration: 3s;
+     } */
+
+          img{
+            width: 200px;
+            border: 2px solid rgb(185, 255, 8);
+            padding: 20px;
+            border-radius: 50%;
+            position: relative;
+            animation-name: MSD;
+            animation-duration: 5s;
+            animation-direction: reverse;
+            animation-delay: 1s;
+            justify-content: center;
+            justify-items: center;
+            display: flex;
+            margin-left: 40%;
+            }
+
+        @keyframes MSD{
+            0% {background-color:lightseagreen; left: 0px; top: 0px; transform:rotate(60deg);}
+            25%{background-color: beige; left: 200px; top: 0px;background-color: red   ; border-radius: 20px; transform:rotate(90deg);}
+            50%{background-color:orange ; left: 200px; top: 200px;transform: rotate(160deg);}
+            75%{background-color: darkmagenta; left: 0; top: 200px;transform: rotate(280deg);}
+            100%{background-color: chartreuse; top: 0; left: 0; transform: 100deg;transform: rotate(360deg);}
+        }
+    </style>
+</body>
+</html>
